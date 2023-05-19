@@ -1,11 +1,33 @@
-.themeButton{
+.themeButton {
     background-color: #fa6400;
-    padding: 10px 50px;
     color: #ffff;
-    font-size: 16px;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 2%) ;
-    border-radius: 4px;
+    font-size: 18px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 2%);
+    border-radius: 10px;
+    border: none;
     border-color: #fa6400;
+    font-family: Inter;
     cursor: pointer;
     margin-bottom: 30px;
+    height: 50px;
+    width: 22%;
+}
+
+.themeButton:hover {
+    animation-name: theme-button-change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes theme-button-change {
+    from {
+        background-color: #fa6400;
+    }
+    to {
+        background-color: #c54f00;
+    }
+}
+
+* {
+    font-family: Inter;
 }
