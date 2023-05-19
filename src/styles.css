@@ -60,12 +60,13 @@ main {
 }
 
 .meme {
-    position: relative;
+    margin: auto;
+    width: 80%;
 }
 
 .meme--image {
     width: 100%;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 .meme--text {
